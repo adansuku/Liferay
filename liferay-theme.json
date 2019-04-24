@@ -1,0 +1,11 @@
+{
+  "LiferayTheme": {
+    "deploymentStrategy": "LocalAppServer",
+    "appServerPath": "/Users/adan/Documents/liferay-7.1/liferay-ce-portal-7.1.1-ga2/tomcat-9.0.10",
+    "deployPath": "/Users/adan/Documents/liferay-7.1/liferay-ce-portal-7.1.1-ga2/deploy",
+    "url": "https://localhost:8080",
+    "appServerPathPlugin": "/Users/adan/Documents/liferay-7.1/liferay-theme-7-1-theme/.web_bundle_build",
+    "deployed": true,
+    "pluginName": "liferay-theme-7-1-theme"
+  }
+}

@@ -1,0 +1,141 @@
+.portlet-decorate .portlet-content {
+    background: transparent !important;
+    border-color: transparent !important;
+    border-style: none;
+    border-width: 0px;
+    word-wrap: break-word;
+}
+
+#portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet > div{
+	background: transparent;
+	border-color: transparent;
+}
+
+#language-portlet{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+.btn-secondary {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: white;
+}
+}
+
+
+.sub-footer{
+	background-color: #141414;
+}
+
+.sub-footer-nav{
+	margin: 0 auto;
+}
+.sub-footer a{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#footer {
+	background-color: $background-color-4;
+	color: $background-main-color;
+	padding: 50px 0px 70px 0px;
+	border-top: 15px solid #141414;
+	margin-top: 40px;
+	a {
+		color: #919294;
+	}
+}
+
+#company-info {
+	border-bottom: 1px solid #2F3033;
+	margin-bottom: 70px;
+	padding-bottom: 30px;
+	text-align: center;
+
+	@include media-query($breakpoint_tablet, null) {
+		text-align: left;
+	}
+}
+
+#footer-brand {
+	margin-bottom: 15px;
+
+	@include media-query($breakpoint_tablet, null) {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+#footer-recursive {
+	display: inline-block;
+	margin-bottom: 15px;
+
+	@include media-query($breakpoint_tablet, null) {
+		margin: 0 0 0 132px;
+		vertical-align: middle;
+	}
+}
+
+#social-networks {
+	padding-top: 15px;
+
+	@include media-query($breakpoint_tablet, null) {
+		/*float: right;
+		margin-top: -25px;*/
+		padding-top: 0;
+	}
+
+	li {
+		width: auto;
+
+		a {
+			color: $color-1;
+			&:hover span, &:focus span {
+				color: $color-3;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+/*social icons*/
+ul.list-inline li{
+	display: inline-block
+}
+.icon.social {
+	margin:0 25px 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+   list-style-type: none;
+}
+.icon.social:hover {
+	color:#6d6e71;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));
+}
+
+
+#social-networks li a:hover{
+	color: #00acd7;
+}
+
+.list-inline-item:not(:last-child) {
+     margin-right: 0;
+}
+
+span[class^="icon-monospaced"], .icon-monospaced {
+	display: inline-block;
+	height: $icon-monospaced-size;
+	line-height: 34px;
+	text-align: left;
+	width: $icon-monospaced-size;
+}

@@ -1,0 +1,25 @@
+{
+	"author": "2Bedigital <info@2bedigital.com> (https://github.com/2bedigital)",
+	"bugs": {
+		"url": "https://issues.liferay.com/"
+	},
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"liferay-theme-deps-7.1": "8.0.0-alpha.3",
+		"liferay-theme-tasks": "8.0.0-alpha.3"
+	},
+	"keywords": [
+		"liferay-theme"
+	],
+	"license": "LGPL",
+	"liferayTheme": {
+		"baseTheme": "styled",
+		"distName": "2bedigital-liferaytheme",
+		"rubySass": false,
+		"version": "7.1"
+	},
+	"main": "package.json",
+	"name": "2bedigital-liferaytheme",
+	"repository": "liferay/liferay-portal",
+	"version": "3.0.0"
+}
